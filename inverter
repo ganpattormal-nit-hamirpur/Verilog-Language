@@ -1,0 +1,8 @@
+module top_module(input in,output out);
+assign out=~in;
+/*  another logic by creating another wire in between
+wire w1l;
+assign w1=in'
+assign out=~w1;
+*/
+endmodule

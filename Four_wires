@@ -1,0 +1,17 @@
+module top_module(input a,b,c,output w,x,y,z);
+assign w=a;
+assign x=b;
+assign y=b;
+assign z=c;//this all continuous assignment directly from ther given diagram
+/* we caan also implement in another logic by crearting wires output behaviour remains same
+wire w1,w2,w3,w4;
+assign w1=a;
+assign w=w1;
+assign w2=b;
+assign x=w2;
+assign w3=b;
+assign y=w3;
+assign w4=c;
+assign z=w4;
+but this resulting in many assign staements and many line of codes */
+endmodule
